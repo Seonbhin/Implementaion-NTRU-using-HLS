@@ -11,7 +11,7 @@
 
 1. Run 폴더에 있는 Makefile에 들어가서 56번째 줄에 있는 Makefile이 있는 디렉토리로 경로를 변경해줍니다.
 2. run을 실행할 디렉토리에 input_r.dat, input_h.dat, input_m.dat, Makefile을 넣어줍니다.
-3. Makefile이 있는 디렉토리에 src 디렉토리를 만들어서 host.cpp, NTRU.cpp, NTRU.h를 만들어 넣어줍니다.(혹은 경로는 Makefile 96번째 줄에서 변경가능)
+3. run을 실행할 디렉토리에 src 디렉토리를 만들어서 host.cpp, NTRU.cpp, NTRU.h를 만들어 넣어줍니다.(혹은 경로는 Makefile 96번째 줄에서 변경가능)
 4. 그 후 'make cleanall'을 입력해 emulation 관련 파일들을 삭제해줍니다.
 5. 'make run TARGET=sw_eum DEVICE=$AWS_PLATFORM' 을 입력하여 sw_emu를 실행합니다.
 6. 'make run TARGET=hw_eum DEVICE=$AWS_PLATFORM' 을 입력하여 hw_emu를 실행합니다.
