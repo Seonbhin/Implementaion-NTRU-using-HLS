@@ -3,7 +3,7 @@
 1. src 폴더에는 host.cpp, NTRU.cpp와 NTRU.h 총 3개의 코드가 있습니다.
 2. Run 폴더에는 Makefile, input_r.dat, input_h.dat, input_r.dat 총 4개의 코드가 있습니다.
 3. Run 폴더에는 output_gold.dat이 있습니다. 이는 결과확인을 위한 추가 파일이며 실행에는 필요하지 않습니다.
-4. Vitis HLS를 이용한 C synthesis 시 4ns가 아닌 4.5ns로 진행해야 오류가 발생하지 않습니다.
+4. Vitis HLS를 이용한 C synthesis 시 4ns가 아닌 4.5ns로 진행해야 slack 발생하지 않습니다.
 
 /***********************************************************************************************/
 
